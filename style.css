@@ -226,30 +226,3 @@ img{
     height: auto;
 }
 
-* {
-    box-sizing: border-box;
-  }
-  /* Default styling for larger screens */
-.container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.col {
-    flex-basis: 48%; /* Adjust the width of columns as needed */
-    /* Add other styles for columns here */
-}
-
-/* Media query for screens smaller than 768px */
-@media (max-width: 768px) {
-    .row {
-        flex-direction: column; /* Change to a column layout */
-    }
-
-    .col {
-        flex-basis: auto; /* Reset column width to auto (full width) */
-        /* Add any additional styles for small screens here */
-    }
-}
-
-  
